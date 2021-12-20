@@ -5,7 +5,7 @@ const port = 5000
 
 // Application routing
 app.use('/', (req, res: Response, next: NextFunction) => {
-  res.status(200).send({ data: 'Hello from Auth App', message: '', req: req })
+  res.status(200).send({ data: "Hello from Auth App", message: '', req: req })
 })
 
 // Start server

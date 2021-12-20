@@ -1,12 +1,12 @@
 
-import express,{ Application, Request, Response, NextFunction} from 'express';
-const app: Application = express();
-const port = 5000;
+import express, { Application, Response, NextFunction } from 'express'
+const app: Application = express()
+const port = 5000
 
 // Application routing
-app.use('/', (req: Request, res: Response, next: NextFunction ) => {
-    res.status(200).send({data: 'Hello from Auth App', message:'Success'});
-});
+app.use('/', (req, res: Response, next: NextFunction) => {
+  res.status(200).send({ data: 'Hello from Auth App', message: '', req: req })
+})
 
 // Start server
-app.listen(port, () => console.log(`Server is listening on port ${port}!`));
+app.listen(port, () => console.log(`Server is listening on port ${port}!`))

@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc -p .",
     "start": "node dist/index.js",
-    "lint:fix": "eslint --fix src/**/*.ts",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix",
     "dev": "nodemon --watch src/**/* -e ts,tsx --exec ./node_modules/.bin/ts-node ./src/index.ts"
   },
   "devDependencies": {
@@ -22,6 +23,7 @@
     "husky": "^7.0.4",
     "jest": "^27.4.5",
     "nodemon": "^2.0.15",
+    "prettier": "^2.5.1",
     "pretty-quick": "^3.1.2",
     "ts-jest": "^27.1.2",
     "ts-node": "^10.4.0",
@@ -32,7 +34,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "pretty-quick --staged"
+      "pre-commit": "yarn lint"
     }
   }
 }

@@ -1,0 +1,6 @@
+{"level":"info","message":"Listening on :::5000"}
+{"level":"error","message":"Unhandled Promise Rejection: reason:"}
+{"level":"error","message":"TypeError: mongoose.connect is not a function\n    at App.<anonymous> (C:\\Users\\Neosoft\\Documents\\sandip\\node\\microservices\\node\\auth\\src\\App.ts:55:20)\n    at Generator.next (<anonymous>)\n    at C:\\Users\\Neosoft\\Documents\\sandip\\node\\microservices\\node\\auth\\src\\App.ts:27:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\Neosoft\\Documents\\sandip\\node\\microservices\\node\\auth\\src\\App.ts:23:12)\n    at App.mongoSetup (C:\\Users\\Neosoft\\Documents\\sandip\\node\\microservices\\node\\auth\\src\\App.ts:77:16)\n    at App.<anonymous> (C:\\Users\\Neosoft\\Documents\\sandip\\node\\microservices\\node\\auth\\src\\App.ts:22:10)\n    at Generator.next (<anonymous>)\n    at C:\\Users\\Neosoft\\Documents\\sandip\\node\\microservices\\node\\auth\\src\\App.ts:27:71\n    at new Promise (<anonymous>)"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"Listening on :::5000"}

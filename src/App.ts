@@ -51,7 +51,6 @@ export default class App {
 
   private async mongoSetup(): Promise<void> {
     const url = <string>process.env.MONGO_URL;
-    console.log('url', url);
     try {
       await connect(url);
     } catch (err) {

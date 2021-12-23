@@ -6,7 +6,6 @@ import { Application, NextFunction, Request, Response } from 'express';
 import * as responsehandler from '../../lib/response-handler';
 // import ApiError from '../../abstractions/ApiError';
 import BaseApi from '../BaseApi';
-// import { IServerTimeResponse, IResourceUsageResponse, IProcessInfoResponse, ISystemInfoResponse } from '../../components/system-status/system-status.types';
 import { AuthLib } from './auth.lib';
 
 /**

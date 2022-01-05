@@ -30,6 +30,7 @@ export default class App {
   private routes(): void {
     this.express.get('/', this.basePathRoute);
     registerRoutes(this.express);
+    this.express.use('/coverage', express.static('coverage/lcov-report'));
   }
 
   /**

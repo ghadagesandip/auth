@@ -9,19 +9,6 @@ const app: App = new App();
 let server: http.Server;
 const port = process.env.PORT;
 
-function serverError(error: any): void {
-  if (error.syscall !== 'listen') {
-    throw error;
-  }
-  // handle specific error codes here.
-  throw error;
-}
-
-function serverListening(): void {
-  const addressInfo: AddressInfo = <AddressInfo>server.address();
-  logger.info(`Listening on ${addressInfo.address}:${port}`);
-}
-
 app
   .init()
   .then(() => {
@@ -43,3 +30,18 @@ process.on('unhandledRejection', (reason: Error) => {
   logger.error(reason.stack);
   // application specific logging, throwing an error, or other logic here
 });
+
+function serverError(error: any): void {
+  if (error.syscall !== 'listen') {
+    throw error;
+  }
+  // handle specific error codes here.
+  throw error;
+}
+
+function serverListening(): void {
+  const addressInfo: AddressInfo = <AddressInfo>server.address();
+  logger.info(`Listening on ${addressInfo.address}:${port}`);
+}
+
+export default app;

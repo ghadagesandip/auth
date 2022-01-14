@@ -6,7 +6,7 @@ import { Application, NextFunction, Request, Response } from 'express';
 import * as responsehandler from '../../lib/response-handler';
 // import ApiError from '../../abstractions/ApiError';
 import BaseApi from '../BaseApi';
-import { AuthLib } from './auth.lib';
+import AuthLib from './auth.lib';
 
 /**
  * Status controller
@@ -27,9 +27,13 @@ export default class AuthController extends BaseApi {
     try {
       const userLib = new AuthLib();
       const { email, password } = req.body;
-      const loggedInUser: any = await userLib.loginUserAndCreateToken(email, password);
-      res.locals.data = loggedInUser;
-      responsehandler.send(res);
+      if (email !== '' && password !== '') {
+        const loggedInUser: any = await userLib.loginUserAndCreateToken(email, password);
+        res.locals.data = loggedInUser;
+        responsehandler.send(res);
+      } else {
+        throw Error('Not valid credentials');
+      }
     } catch (err) {
       next(err);
     }

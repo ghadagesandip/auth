@@ -6,7 +6,7 @@ interface IUserType extends Object {
   password: string;
 }
 
-export class AuthLib {
+export default class AuthLib {
   public async generateHash(password: string): Promise<string> {
     return bcrypt.hashSync(password, 10);
   }

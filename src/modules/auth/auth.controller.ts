@@ -3,7 +3,7 @@ import { Application, NextFunction, Request, Response } from 'express';
 //   ReasonPhrases,
 //   StatusCodes
 // } from 'http-status-codes';
-import * as responsehandler from '../../lib/response-handler';
+import { send } from '../../lib/response-handler';
 // import ApiError from '../../abstractions/ApiError';
 import BaseApi from '../BaseApi';
 import AuthLib from './auth.lib';
@@ -29,9 +29,8 @@ export default class AuthController extends BaseApi {
       const { email, password } = req.body;
       if (email !== '' && password !== '') {
         const loggedInUser: any = await userLib.loginUserAndCreateToken(email, password);
-        // res.locals.data = loggedInUser;
-        // responsehandler.send(res);
-        res.json(loggedInUser);
+        res.locals.data = loggedInUser;
+        send(res);
       } else {
         throw Error('Not valid credentials');
       }
@@ -46,7 +45,7 @@ export default class AuthController extends BaseApi {
       const userResult = await userLib.saveUser(req.body);
       userResult.password = undefined;
       res.locals.data = userResult;
-      responsehandler.send(res);
+      send(res);
     } catch (err) {
       next(err);
     }

@@ -164,3 +164,4 @@
 {"level":"info"}
 {"level":"info"}
 {"level":"info"}
+{"level":"info","message":"{\n  \"userData\": {\n    \"email\": \"sandip.ghadg@test.com\",\n    \"first_name\": \"Sandip\"\n  },\n  \"token\": \"secret_token_goes_here\"\n}"}

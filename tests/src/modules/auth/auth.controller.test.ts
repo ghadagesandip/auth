@@ -2,6 +2,7 @@ import express, { Request, Response } from 'express';
 import AuthController from '../../../../src/modules/auth/auth.controller';
 
 jest.mock('../../../../src/modules/auth/auth.lib');
+jest.mock('../../../../src/lib/response-handler');
 
 beforeEach(() => {
   jest.useFakeTimers();
@@ -20,9 +21,14 @@ describe('Auth controller', () => {
     } as Request;
     let responseObj = {};
     const mRes: Partial<Response> = {
-      json: jest.fn().mockImplementation((result) => {
+      send: jest.fn().mockImplementation((result) => {
         responseObj = result;
-      })
+      }),
+      locals: {
+        data: jest.fn().mockImplementation((result) => {
+          responseObj = result;
+        })
+      }
     };
     const mNext = jest.fn();
     const expectedResponse = {
@@ -30,23 +36,22 @@ describe('Auth controller', () => {
       token: 'secret_token_goes_here'
     };
     await authController.login(mReq as Request, mRes as Response, mNext);
-    // expect(mNext).toBeCalled();
     expect(responseObj).toHaveProperty('userData');
     expect(responseObj).toEqual(expectedResponse);
   });
 
-  // it('login should be failed ', async () => {
-  //   const mReq: any = {
-  //     body: {
-  //       email: 'sandip.ghadg@test.com',
-  //       password: ''
-  //     }
-  //   };
-  //   const mRes: any = {};
-  //   const mNext = jest.fn();
-  //   await authController.login(mReq, mRes, mNext);
-  //   expect(mNext).toBeCalled();
-  // });
+  it('login should be failed ', async () => {
+    const mReq: any = {
+      body: {
+        email: 'sandip.ghadg@test.com',
+        password: ''
+      }
+    };
+    const mRes: any = {};
+    const mNext = jest.fn();
+    await authController.login(mReq, mRes, mNext);
+    expect(mNext).toBeCalled();
+  });
 });
 
 afterEach(() => {

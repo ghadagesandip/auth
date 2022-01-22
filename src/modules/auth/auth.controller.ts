@@ -29,8 +29,9 @@ export default class AuthController extends BaseApi {
       const { email, password } = req.body;
       if (email !== '' && password !== '') {
         const loggedInUser: any = await userLib.loginUserAndCreateToken(email, password);
-        res.locals.data = loggedInUser;
-        responsehandler.send(res);
+        // res.locals.data = loggedInUser;
+        // responsehandler.send(res);
+        res.json(loggedInUser);
       } else {
         throw Error('Not valid credentials');
       }

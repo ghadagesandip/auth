@@ -20,7 +20,17 @@ describe('Auth controller', () => {
       }
     } as Request;
     let responseObj = {};
+    let responseStatus = 0;
+    const expectedResponse = {
+      userData: { email: 'sandip.ghadg@test.com', first_name: 'Sandip' },
+      token: 'secret_token_goes_here'
+    };
+    const expectedStatus = 200;
+
     const mRes: Partial<Response> = {
+      status: jest.fn().mockImplementation((result) => {
+        responseStatus = result;
+      }),
       send: jest.fn().mockImplementation((result) => {
         responseObj = result;
       }),
@@ -31,13 +41,12 @@ describe('Auth controller', () => {
       }
     };
     const mNext = jest.fn();
-    const expectedResponse = {
-      userData: { email: 'sandip.ghadg@test.com', first_name: 'Sandip' },
-      token: 'secret_token_goes_here'
-    };
+
     await authController.login(mReq as Request, mRes as Response, mNext);
+    console.log('mRes', mRes);
     expect(responseObj).toHaveProperty('userData');
     expect(responseObj).toEqual(expectedResponse);
+    expect(responseStatus).toEqual(expectedStatus);
   });
 
   it('login should be failed ', async () => {

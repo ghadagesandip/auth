@@ -1,4 +1,6 @@
 import { Application, NextFunction, Request, Response } from 'express';
+import { StatusCodes } from 'http-status-codes';
+
 // import {
 //   ReasonPhrases,
 //   StatusCodes
@@ -35,7 +37,8 @@ export default class AuthController extends BaseApi {
         throw Error('Not valid credentials');
       }
     } catch (err) {
-      next(err);
+      res.locals.data = { message: err + '' };
+      send(res, StatusCodes.UNAUTHORIZED);
     }
   }
 

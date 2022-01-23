@@ -166,3 +166,50 @@
 {"level":"info"}
 {"level":"info","message":"{\n  \"userData\": {\n    \"email\": \"sandip.ghadg@test.com\",\n    \"first_name\": \"Sandip\"\n  },\n  \"token\": \"secret_token_goes_here\"\n}"}
 {"level":"info","message":"{\n  \"userData\": {\n    \"email\": \"sandip.ghadg@test.com\",\n    \"first_name\": \"Sandip\"\n  },\n  \"token\": \"secret_token_goes_here\"\n}"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"{\n  \"userData\": {\n    \"_id\": \"617ed5cad40bd2ee5bdda912\",\n    \"email\": \"sandip@yopmail.com\",\n    \"first_name\": \"Sandip\",\n    \"last_name\": \"Ghadge\",\n    \"createdAt\": \"2021-10-31T17:43:38.515Z\",\n    \"updatedAt\": \"2021-10-31T17:43:38.515Z\",\n    \"__v\": 0\n  },\n  \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxN2VkNWNhZDQwYmQyZWU1YmRkYTkxMiIsImp0aSI6InRlc3QiLCJpYXQiOjE2NDI5NDQ2MDIsImV4cCI6MTY0MzAzMTAwMn0.ei51SybPsbGzZrzOJNtizpYbOIEExtUHTtN2skAG14o\"\n}"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info"}
+{"level":"info"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"{\n  \"message\": \"Invalid credentials\"\n}"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"{\n  \"message\": {}\n}"}
+{"level":"info","message":"{\n  \"message\": {}\n}"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"{\n  \"message\": {}\n}"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"{\n  \"message\": {}\n}"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"{\n  \"message\": \"Error: INVALID_CREDENTIALS\"\n}"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"{\n  \"message\": \"Error: INVALID_CREDENTIALS\"\n}"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"{\n  \"message\": \"[object Object]\"\n}"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"{\n  \"message\": \"Error: something bad happened\"\n}"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"\"Error: INVALID_CREDENTIALS\""}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"{\n  \"message\": \"Error: INVALID_CREDENTIALS\"\n}"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"{\n  \"userData\": {\n    \"_id\": \"617ed5cad40bd2ee5bdda912\",\n    \"email\": \"sandip@yopmail.com\",\n    \"first_name\": \"Sandip\",\n    \"last_name\": \"Ghadge\",\n    \"createdAt\": \"2021-10-31T17:43:38.515Z\",\n    \"updatedAt\": \"2021-10-31T17:43:38.515Z\",\n    \"__v\": 0\n  },\n  \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxN2VkNWNhZDQwYmQyZWU1YmRkYTkxMiIsImp0aSI6InRlc3QiLCJpYXQiOjE2NDI5NDczOTUsImV4cCI6MTY0MzAzMzc5NX0.cSXuSuEmde9SYNFkvmgspEWDZ104_jPk_nK9gncgpYA\"\n}"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"{\n  \"data\": {\n    \"userData\": {\n      \"_id\": \"617ed5cad40bd2ee5bdda912\",\n      \"email\": \"sandip@yopmail.com\",\n      \"first_name\": \"Sandip\",\n      \"last_name\": \"Ghadge\",\n      \"createdAt\": \"2021-10-31T17:43:38.515Z\",\n      \"updatedAt\": \"2021-10-31T17:43:38.515Z\",\n      \"__v\": 0\n    },\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxN2VkNWNhZDQwYmQyZWU1YmRkYTkxMiIsImp0aSI6InRlc3QiLCJpYXQiOjE2NDI5NDc0MzQsImV4cCI6MTY0MzAzMzgzNH0.fVg0vmpVDQ1NWr2joDii7-hK66KzLQ9hvqV6Epkwbtk\"\n  }\n}"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"{\n  \"userData\": {\n    \"_id\": \"617ed5cad40bd2ee5bdda912\",\n    \"email\": \"sandip@yopmail.com\",\n    \"first_name\": \"Sandip\",\n    \"last_name\": \"Ghadge\",\n    \"createdAt\": \"2021-10-31T17:43:38.515Z\",\n    \"updatedAt\": \"2021-10-31T17:43:38.515Z\",\n    \"__v\": 0\n  },\n  \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxN2VkNWNhZDQwYmQyZWU1YmRkYTkxMiIsImp0aSI6InRlc3QiLCJpYXQiOjE2NDI5NDc0OTYsImV4cCI6MTY0MzAzMzg5Nn0.jbJrIcSiU-xGK-QZ8VEeh9UgslM7GS3WI2ABp2VHHFQ\"\n}"}
+{"level":"info","message":"{\n  \"message\": \"Error: INVALID_CREDENTIALS\"\n}"}
+{"level":"info","message":"{\n  \"message\": \"Error: INVALID_CREDENTIALS\"\n}"}
+{"level":"info","message":"Listening on :::5000"}

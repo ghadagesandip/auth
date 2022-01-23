@@ -43,7 +43,6 @@ describe('Auth controller', () => {
     const mNext = jest.fn();
 
     await authController.login(mReq as Request, mRes as Response, mNext);
-    console.log('mRes', mRes);
     expect(responseObj).toHaveProperty('userData');
     expect(responseObj).toEqual(expectedResponse);
     expect(responseStatus).toEqual(expectedStatus);
@@ -56,10 +55,26 @@ describe('Auth controller', () => {
         password: ''
       }
     };
-    const mRes: any = {};
+    let responseObj = { message: 'err' };
+    let responseStatus = 0;
+
+    const mRes: any = {
+      status: jest.fn().mockImplementation((result) => {
+        responseStatus = result;
+      }),
+      send: jest.fn().mockImplementation((result) => {
+        responseObj = result;
+      }),
+      locals: {
+        data: jest.fn().mockImplementation((result) => {
+          responseObj = result;
+        })
+      }
+    };
     const mNext = jest.fn();
     await authController.login(mReq, mRes, mNext);
-    expect(mNext).toBeCalled();
+    expect(responseObj).toHaveProperty('message');
+    expect(responseStatus).toEqual(401);
   });
 });
 

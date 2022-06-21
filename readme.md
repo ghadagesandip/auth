@@ -4,7 +4,7 @@ prerequisists
 # Note:
 
 ### setup typescript config
-npx typescript --init
+npx -p typescript tsc --init
 
 ### setup eslint
 npx eslint --init

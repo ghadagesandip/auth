@@ -213,3 +213,27 @@
 {"level":"info","message":"{\n  \"message\": \"Error: INVALID_CREDENTIALS\"\n}"}
 {"level":"info","message":"{\n  \"message\": \"Error: INVALID_CREDENTIALS\"\n}"}
 {"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"{\n  \"userData\": {\n    \"_id\": \"617ed5cad40bd2ee5bdda912\",\n    \"email\": \"sandip@yopmail.com\",\n    \"first_name\": \"Sandip\",\n    \"last_name\": \"Ghadge\",\n    \"createdAt\": \"2021-10-31T17:43:38.515Z\",\n    \"updatedAt\": \"2021-10-31T17:43:38.515Z\",\n    \"__v\": 0\n  },\n  \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxN2VkNWNhZDQwYmQyZWU1YmRkYTkxMiIsImp0aSI6InRlc3QiLCJpYXQiOjE2NDMyOTQ3NDIsImV4cCI6MTY0MzM4MTE0Mn0.CuYQAT3RfI4BsnXHGsj-hHuNikn_MHoa0JNj_H4MJxM\"\n}"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"{\n  \"userData\": {\n    \"_id\": \"617ed5cad40bd2ee5bdda912\",\n    \"email\": \"sandip@yopmail.com\",\n    \"first_name\": \"Sandip\",\n    \"last_name\": \"Ghadge\",\n    \"createdAt\": \"2021-10-31T17:43:38.515Z\",\n    \"updatedAt\": \"2021-10-31T17:43:38.515Z\",\n    \"__v\": 0\n  },\n  \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxN2VkNWNhZDQwYmQyZWU1YmRkYTkxMiIsImp0aSI6InRlc3QiLCJpYXQiOjE2NDMyOTQ5OTQsImV4cCI6MTY0MzM4MTM5NH0.30qafzUyIY4X_fawEl8n0CVz1iHnn4B7GCuYLPGoH2w\"\n}"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"{\n  \"userData\": {\n    \"_id\": \"617ed5cad40bd2ee5bdda912\",\n    \"email\": \"sandip@yopmail.com\",\n    \"first_name\": \"Sandip\",\n    \"last_name\": \"Ghadge\",\n    \"createdAt\": \"2021-10-31T17:43:38.515Z\",\n    \"updatedAt\": \"2021-10-31T17:43:38.515Z\",\n    \"__v\": 0\n  },\n  \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxN2VkNWNhZDQwYmQyZWU1YmRkYTkxMiIsImp0aSI6InRlc3QiLCJpYXQiOjE2NDMyOTUwMzksImV4cCI6MTY0MzM4MTQzOX0.Ss6JDa5IVkfqe78rHfilUb5J5_abqxmTj2N7nwYqTVg\"\n}"}
+{"level":"info","message":"{\n  \"userData\": {\n    \"_id\": \"617ed5cad40bd2ee5bdda912\",\n    \"email\": \"sandip@yopmail.com\",\n    \"first_name\": \"Sandip\",\n    \"last_name\": \"Ghadge\",\n    \"createdAt\": \"2021-10-31T17:43:38.515Z\",\n    \"updatedAt\": \"2021-10-31T17:43:38.515Z\",\n    \"__v\": 0\n  },\n  \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxN2VkNWNhZDQwYmQyZWU1YmRkYTkxMiIsImp0aSI6InRlc3QiLCJpYXQiOjE2NDMyOTUwNTAsImV4cCI6MTY0MzM4MTQ1MH0.G6e4F-utRP3ZM9JGRyxUljmdoOuJmDbnIZGzdipTJjE\"\n}"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"Listening on :::5000"}
+{"level":"info","message":"{\n  \"userData\": {\n    \"_id\": \"617ed5cad40bd2ee5bdda912\",\n    \"email\": \"sandip@yopmail.com\",\n    \"first_name\": \"Sandip\",\n    \"last_name\": \"Ghadge\",\n    \"createdAt\": \"2021-10-31T17:43:38.515Z\",\n    \"updatedAt\": \"2021-10-31T17:43:38.515Z\",\n    \"__v\": 0\n  },\n  \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxN2VkNWNhZDQwYmQyZWU1YmRkYTkxMiIsImp0aSI6InRlc3QiLCJpYXQiOjE2NDMyOTUyNDgsImV4cCI6MTY0MzM4MTY0OH0.odmdA_GUtMeKN3AcFlvRIiVveSl5KR5dXUIhbqQ8rLU\"\n}"}
+{"level":"info","message":"{\n  \"userData\": {\n    \"_id\": \"617ed5cad40bd2ee5bdda912\",\n    \"email\": \"sandip@yopmail.com\",\n    \"first_name\": \"Sandip\",\n    \"last_name\": \"Ghadge\",\n    \"createdAt\": \"2021-10-31T17:43:38.515Z\",\n    \"updatedAt\": \"2021-10-31T17:43:38.515Z\",\n    \"__v\": 0\n  },\n  \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxN2VkNWNhZDQwYmQyZWU1YmRkYTkxMiIsImp0aSI6InRlc3QiLCJpYXQiOjE2NDMyOTUyNTMsImV4cCI6MTY0MzM4MTY1M30.-vGs206LfYj081NbaGTRYFu4eTN4dcM7i7ao-owVUQg\"\n}"}

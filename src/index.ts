@@ -41,6 +41,7 @@ function serverError(error: any): void {
 
 function serverListening(): void {
   const addressInfo: AddressInfo = <AddressInfo>server.address();
+  console.log('Server started connected');
   logger.info(`Listening on ${addressInfo.address}:${port}`);
 }
 

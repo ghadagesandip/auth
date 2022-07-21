@@ -50,6 +50,7 @@ describe('Auth controller', () => {
   });
 
   it('login should be failed ', async () => {
+    console.log('login failed check');
     const mReq: any = {
       body: {
         email: 'sandip.ghadg@test.com',

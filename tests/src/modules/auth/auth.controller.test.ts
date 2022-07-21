@@ -78,6 +78,8 @@ describe('Auth controller', () => {
     expect(responseObj).toHaveProperty('message');
     expect(responseStatus).toEqual(401);
   });
+
+  it('should able to signup ', async () => {});
 });
 
 afterEach(() => {

@@ -7,7 +7,6 @@ beforeEach(() => {
 });
 
 describe('Auth Lib', () => {
-  console.log('testing lib file again');
   it('should called generateHash ', async () => {
     const authLib = new AuthLib();
     const passString = 'abc';

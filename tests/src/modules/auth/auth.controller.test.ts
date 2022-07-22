@@ -10,7 +10,6 @@ beforeEach(() => {
 });
 
 describe('Auth controller', () => {
-  console.log('testing auth conrtoller file');
   const app = express();
   const authController = new AuthController(app);
   it('should able to login ', async () => {
@@ -50,7 +49,6 @@ describe('Auth controller', () => {
   });
 
   it('login should be failed ', async () => {
-    console.log('login failed check');
     const mReq: any = {
       body: {
         email: 'sandip.ghadg@test.com',
@@ -78,6 +76,8 @@ describe('Auth controller', () => {
     expect(responseObj).toHaveProperty('message');
     expect(responseStatus).toEqual(401);
   });
+
+  it('should able to signup ', async () => {});
 });
 
 afterEach(() => {
